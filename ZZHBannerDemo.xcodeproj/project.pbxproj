@@ -15,6 +15,11 @@
 		2682DFF91E28BC8A00296F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2682DFF71E28BC8A00296F72 /* LaunchScreen.storyboard */; };
 		2682E0041E28BC8A00296F72 /* ZZHBannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682E0031E28BC8A00296F72 /* ZZHBannerDemoTests.m */; };
 		2682E00F1E28BC8A00296F72 /* ZZHBannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682E00E1E28BC8A00296F72 /* ZZHBannerDemoUITests.m */; };
+		2682E0231E28BD1700296F72 /* ZZHBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682E01F1E28BD1700296F72 /* ZZHBannerView.m */; };
+		2682E0241E28BD1700296F72 /* ZZHBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2682E0201E28BD1700296F72 /* ZZHBannerView.xib */; };
+		2682E0251E28BD1700296F72 /* ZZHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682E0221E28BD1700296F72 /* ZZHImageView.m */; };
+		2682E0291E28BD4D00296F72 /* ZZHPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682E0271E28BD4D00296F72 /* ZZHPageView.m */; };
+		2682E02A1E28BD4D00296F72 /* ZZHPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2682E0281E28BD4D00296F72 /* ZZHPageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		2682E00A1E28BC8A00296F72 /* ZZHBannerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZHBannerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2682E00E1E28BC8A00296F72 /* ZZHBannerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHBannerDemoUITests.m; sourceTree = "<group>"; };
 		2682E0101E28BC8A00296F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2682E01E1E28BD1700296F72 /* ZZHBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHBannerView.h; sourceTree = "<group>"; };
+		2682E01F1E28BD1700296F72 /* ZZHBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHBannerView.m; sourceTree = "<group>"; };
+		2682E0201E28BD1700296F72 /* ZZHBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZHBannerView.xib; sourceTree = "<group>"; };
+		2682E0211E28BD1700296F72 /* ZZHImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHImageView.h; sourceTree = "<group>"; };
+		2682E0221E28BD1700296F72 /* ZZHImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHImageView.m; sourceTree = "<group>"; };
+		2682E0261E28BD4D00296F72 /* ZZHPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHPageView.h; sourceTree = "<group>"; };
+		2682E0271E28BD4D00296F72 /* ZZHPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHPageView.m; sourceTree = "<group>"; };
+		2682E0281E28BD4D00296F72 /* ZZHPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZHPageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,7 @@
 		2682DFE81E28BC8A00296F72 /* ZZHBannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2682E01C1E28BCD600296F72 /* BannerView */,
 				2682DFEC1E28BC8A00296F72 /* AppDelegate.h */,
 				2682DFED1E28BC8A00296F72 /* AppDelegate.m */,
 				2682DFEF1E28BC8A00296F72 /* ViewController.h */,
@@ -138,6 +152,21 @@
 				2682E0101E28BC8A00296F72 /* Info.plist */,
 			);
 			path = ZZHBannerDemoUITests;
+			sourceTree = "<group>";
+		};
+		2682E01C1E28BCD600296F72 /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				2682E0261E28BD4D00296F72 /* ZZHPageView.h */,
+				2682E0271E28BD4D00296F72 /* ZZHPageView.m */,
+				2682E0281E28BD4D00296F72 /* ZZHPageView.xib */,
+				2682E01E1E28BD1700296F72 /* ZZHBannerView.h */,
+				2682E01F1E28BD1700296F72 /* ZZHBannerView.m */,
+				2682E0201E28BD1700296F72 /* ZZHBannerView.xib */,
+				2682E0211E28BD1700296F72 /* ZZHImageView.h */,
+				2682E0221E28BD1700296F72 /* ZZHImageView.m */,
+			);
+			path = BannerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +280,9 @@
 			files = (
 				2682DFF91E28BC8A00296F72 /* LaunchScreen.storyboard in Resources */,
 				2682DFF61E28BC8A00296F72 /* Assets.xcassets in Resources */,
+				2682E02A1E28BD4D00296F72 /* ZZHPageView.xib in Resources */,
 				2682DFF41E28BC8A00296F72 /* Main.storyboard in Resources */,
+				2682E0241E28BD1700296F72 /* ZZHBannerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2682E0291E28BD4D00296F72 /* ZZHPageView.m in Sources */,
 				2682DFF11E28BC8A00296F72 /* ViewController.m in Sources */,
 				2682DFEE1E28BC8A00296F72 /* AppDelegate.m in Sources */,
 				2682DFEB1E28BC8A00296F72 /* main.m in Sources */,
+				2682E0231E28BD1700296F72 /* ZZHBannerView.m in Sources */,
+				2682E0251E28BD1700296F72 /* ZZHImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
